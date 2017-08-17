@@ -1,0 +1,29 @@
+{{template "header"}}
+    <title>stevano BeeRun blog</title>
+</head>
+<body>
+<nav  class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        {{template "navbar" .}}<!--加点可以进行动态操作-->
+    </div>
+</nav>
+<div class="container">
+    <div class="" >
+        <h1>臭臭宝</h1>
+        <h6 class="text-muted">发表于2017年8月11日</h6>
+        <p>猪猪妹你个臭臭宝</p>
+
+    </div>
+</div>
+
+</body>
+
+<script type="text/javascript">
+    var isAdmin = "{{.isAdmin}}";
+
+    if (!isAdmin){
+
+    }
+
+</script>
+</html>
