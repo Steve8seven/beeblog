@@ -4,11 +4,13 @@
       <root url="file://$PROJECT_DIR$/../apiproject" />
       <root url="file://$PROJECT_DIR$/../github.com" />
       <root url="file://$PROJECT_DIR$/../golang.org" />
+      <root url="file://$PROJECT_DIR$/../beeblog_1" />
     </CLASSES>
     <SOURCES>
       <root url="file://$PROJECT_DIR$/../apiproject" />
       <root url="file://$PROJECT_DIR$/../github.com" />
       <root url="file://$PROJECT_DIR$/../golang.org" />
+      <root url="file://$PROJECT_DIR$/../beeblog_1" />
     </SOURCES>
     <excluded>
       <root url="file://$PROJECT_DIR$" />
