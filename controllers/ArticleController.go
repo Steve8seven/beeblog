@@ -5,15 +5,16 @@ import (
 	"fmt"
 )
 
-type AdminController struct {
+type ArticleController struct {
 	beego.Controller
 }
 
-func (this *AdminController) Get() {
+func (this *ArticleController) Get() {
 	check := checkAccount(this.Ctx)
 	fmt.Println(check)
+	this.TplName = "article_edit.html"
 	if check{
-		this.TplName = "admin.html"
+		this.TplName = "article_edit.html"
 	}else {
 		this.Redirect("/login", 301)
 		//this.TplName = "login.html"
@@ -21,6 +22,6 @@ func (this *AdminController) Get() {
 	return
 }
 
-func (this *AdminController) Post() {
+func (this *ArticleController) Post() {
 
 }

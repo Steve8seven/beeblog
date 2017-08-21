@@ -36,9 +36,10 @@ func (this *LoginController) Post(){
 		}
 		this.Ctx.SetCookie("uname", uname, maxAge, "/")
 		this.Ctx.SetCookie("password", password, maxAge, "/")
-
+		this.Redirect("/admin", 301)
 	}
-	this.Redirect("/admin", 301)
+	this.Redirect("/login", 301)
+
 	return
 }
 

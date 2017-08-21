@@ -1,0 +1,76 @@
+{{template "header"}}
+{{template "admin_menu"}}
+
+<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+    <h1 class="page-header">文章</h1>
+    <form action="" method="get">
+        <div class="input-group">
+            <span class="input-group-addon" id="title" name="title">题目</span>
+            <input type="text" class="form-control" aria-describedby="basic-addon1">
+        </div>
+        <br>
+        <textarea id='editor' name="editor" style='color:#0000'></textarea>
+        <br>
+        <div class="input-group">
+            <span class="input-group-addon" name="category" id="category">标签</span>
+            <input type="text" class="form-control" aria-describedby="basic-addon1">
+        </div>
+        <br>
+        <button type="submit" class="btn btn-default" onclick="check_art()">发布文章</button>
+    </form>
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        var $editor = $("#editor");
+        $editor.markdown({
+            height: 300,
+            onShow: function () {
+            },
+            onPreview: function(e) {
+
+            }
+        });
+
+        $('form').bootstrapValidator({
+            message: 'This value is not valid',
+            feedbackIcons: {
+                valid: 'glyphicon glyphicon-ok',
+                invalid: 'glyphicon glyphicon-remove',
+                validating: 'glyphicon glyphicon-refresh'
+            },
+            fields: {
+                title: {
+                    message: '标题错误',
+                    validators: {
+                        notEmpty: {
+                            message: '标题不能为空'
+                        }
+                    }
+                },
+                editor: {
+                    validators: {
+                        notEmpty: {
+                            message: '内容不能为空'
+                        }
+                    }
+                },
+                category: {
+                    validators: {
+                        notEmpty: {
+                            message: '标签不能为空'
+                        }
+                    }
+                }
+            }
+        });
+    });
+
+    function check_art() {
+       var a = $("#editor").val();
+        var $editor = $("#editor");
+    }
+
+</script>
+
+{{template "admin_menu_end"}}
