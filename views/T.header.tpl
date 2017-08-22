@@ -33,5 +33,7 @@
     <script src="../static/js/bootstrapValidator.js"></script>
     <script src="../static/js/bootstrap-markdown/js/bootstrap-markdown.js"></script>
     <script  src="../static/js/marked/marked.min.js"></script>
+    <script  src="../static/js/Parser.js"></script>
+    <script  src="../static/js/layer/layer.js"></script>
 {{end}}
 

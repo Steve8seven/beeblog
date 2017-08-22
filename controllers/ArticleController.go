@@ -25,3 +25,12 @@ func (this *ArticleController) Get() {
 func (this *ArticleController) Post() {
 
 }
+
+func (this *ArticleController) SaveArticle()  {
+	mdcode := this.Input().Get("mdcode")
+	htmlcode := this.Input().Get("htmlcode")
+	fmt.Println(mdcode)
+	fmt.Println(htmlcode)
+	this.Data["json"] = "okok"
+	this.ServeJSON()
+}

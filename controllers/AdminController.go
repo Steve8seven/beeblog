@@ -2,7 +2,6 @@ package controllers
 
 import (
 	"github.com/astaxie/beego"
-	"fmt"
 )
 
 type AdminController struct {
@@ -11,7 +10,6 @@ type AdminController struct {
 
 func (this *AdminController) Get() {
 	check := checkAccount(this.Ctx)
-	fmt.Println(check)
 	if check{
 		this.TplName = "admin.html"
 	}else {
