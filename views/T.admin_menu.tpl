@@ -21,7 +21,7 @@
           <ul class="nav nav-sidebar">
             <li><a href="/admin">用户</a></li>
             <li><a href="/admin/gotoArticle">写作文章</a></li>
-            <li><a href="#">标签管理</a></li>
+            <li><a href="/admin/myArticle?p=1">我的文章</a></li>
             <li><a href="#">图书管理</a></li>
           </ul>
         </div>

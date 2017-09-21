@@ -23,7 +23,6 @@ func (this *LoginController) Get(){
 }
 
 func (this *LoginController) Post(){
-	//this.TplName = "Login.html"
 	uname := this.Input().Get("username");
 	password := this.Input().Get("password");
 	autoLogin := this.Input().Get("autoLogin") == "on"

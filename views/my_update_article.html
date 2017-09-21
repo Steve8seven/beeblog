@@ -1,0 +1,88 @@
+{{template "header"}}
+{{template "admin_menu"}}
+
+<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+    <h1 class="page-header">文章</h1>
+    <form>
+        <div class="input-group">
+            <span class="input-group-addon"  name="title">题目</span>
+            <input type="text" class="form-control" value="{{$.title}}" id="title" aria-describedby="basic-addon1">
+        </div>
+        <br>
+        <textarea id='sammed' placeholder="概述：限200字" name="sammed" class="form-control"></textarea>
+        <br>
+        <textarea id='editor' name="editor" style='color:#0000'></textarea>
+        <br>
+        <div class="input-group">
+            <span class="input-group-addon" name="category" >标签</span>
+            <input type="text" class="form-control" value="{{$.category}}" id="category" aria-describedby="basic-addon1">
+        </div>
+        <br>
+    </form>
+    <button class="btn btn-default" onclick="check_art()">更新文章</button>
+    <a href="./artcle/delete_articlez?id={{$.Id}}">
+        <span class="glyphicon glyphicon-trash"></span>
+    </a>
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        var $editor = $("#editor");
+        $editor.markdown({
+            height: 300,
+            onShow: function () {
+            },
+            onPreview: function(e) {
+
+            }
+        });
+
+        var md_content = "{{$.article_md}}";
+        var sammed = "{{$.sammed}}";
+        $("#editor").text(md_content);
+        $("#sammed").text(sammed);
+    });
+
+    function check_art() {
+       var mdcode = $("#editor").val();
+       var title = $("#title").val();
+       var category = $("#category").val();
+       var sammed = $("#sammed").val();
+       var id = "{{$.Id}}";
+       if (mdcode==""){
+            layer.msg('还没有文章内容哟❤️', {icon: 5, time:2000});
+            return;
+       }
+       if (title==""||category==""){
+           layer.msg('缺少了标题还是标签吧~_~', {icon: 5, time:2000});
+           return;
+       }
+       var parser = new HyperDown;
+       var htmlcode = parser.makeHtml(mdcode);
+        $.ajax({
+            type: 'POST',
+            url: "./artcle/update_articlez",
+            data: {
+                mdcode: mdcode,
+                title: title,
+                category: category,
+                htmlcode: htmlcode,
+                sammed:sammed,
+                id : id
+            },
+            success: function (re) {
+                if (re == "ok"){
+                    window.location.href = "/admin/gotoSuccess"
+                }else {
+                    layer.msg(re, {icon: 5, time:2000});
+                    return;
+                }
+            },
+            dataType:"json"
+        });
+
+    }
+
+</script>
+
+{{template "admin_menu_end"}}

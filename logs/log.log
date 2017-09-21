@@ -1,0 +1,121 @@
+2017/09/17 00:00:00 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   2.374275ms|   match|[44m GET     [0m /     r:/
+2017/09/17 00:00:00 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|     47.256µs|   match|[44m GET     [0m /static/img/WechatIMG25.png
+2017/09/17 00:01:22 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   2.607162ms|   match|[44m GET     [0m /     r:/
+2017/09/17 00:01:22 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|     50.619µs|   match|[44m GET     [0m /static/img/WechatIMG25.png
+2017/09/17 00:02:04 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   2.607298ms|   match|[44m GET     [0m /     r:/
+2017/09/17 00:07:08 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   2.248774ms|   match|[44m GET     [0m /     r:/
+2017/09/17 00:07:08 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    253.028µs|   match|[44m GET     [0m /static/img/WechatIMG25.jpeg
+2017/09/17 00:07:28 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   2.072748ms|   match|[44m GET     [0m /     r:/
+2017/09/17 00:07:28 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    644.024µs|   match|[44m GET     [0m /static/img/WechatIMG24.jpeg
+2017/09/17 00:08:23 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   2.360663ms|   match|[44m GET     [0m /     r:/
+2017/09/17 00:12:09 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   3.029813ms|   match|[44m GET     [0m /     r:/
+2017/09/17 00:13:14 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   2.225647ms|   match|[44m GET     [0m /     r:/
+2017/09/17 00:15:29 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    4.91558ms|   match|[44m GET     [0m /     r:/
+2017/09/17 00:15:55 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    2.04649ms|   match|[44m GET     [0m /     r:/
+2017/09/17 00:18:08 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   3.143453ms|   match|[44m GET     [0m /     r:/
+2017/09/17 00:18:08 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|     56.736µs|   match|[44m GET     [0m /static/img/WechatIMG25.png
+2017/09/17 00:18:30 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   2.673631ms|   match|[44m GET     [0m /     r:/
+2017/09/17 00:18:33 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   2.916425ms|   match|[44m GET     [0m /     r:/
+2017/09/17 00:23:45 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   2.099658ms|   match|[44m GET     [0m /     r:/
+2017/09/17 00:23:45 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|     37.563µs|   match|[44m GET     [0m /static/img/WechatIMG25.png
+2017/09/17 00:24:04 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   2.119789ms|   match|[44m GET     [0m /     r:/
+2017/09/17 00:25:58 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   2.165644ms|   match|[44m GET     [0m /     r:/
+2017/09/17 00:25:58 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    258.103µs|   match|[44m GET     [0m /static/img/WechatIMG30.png
+2017/09/17 00:26:19 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   2.169592ms|   match|[44m GET     [0m /     r:/
+2017/09/17 00:26:19 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|     50.907µs|   match|[44m GET     [0m /static/img/WechatIMG27.png
+2017/09/17 00:26:35 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   4.548237ms|   match|[44m GET     [0m /     r:/
+2017/09/17 00:26:47 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   2.006517ms|   match|[44m GET     [0m /     r:/
+2017/09/17 00:26:48 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   8.983125ms|   match|[44m GET     [0m /     r:/
+2017/09/17 00:26:50 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   2.322972ms|   match|[44m GET     [0m /     r:/
+2017/09/17 00:26:51 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   2.152901ms|   match|[44m GET     [0m /     r:/
+2017/09/17 00:26:52 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   3.112346ms|   match|[44m GET     [0m /     r:/
+2017/09/17 00:26:53 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   2.796087ms|   match|[44m GET     [0m /     r:/
+2017/09/17 00:27:48 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   2.617697ms|   match|[44m GET     [0m /     r:/
+2017/09/17 00:27:48 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|     54.408µs|   match|[44m GET     [0m /static/img/WechatIMG25.png
+2017/09/17 00:27:55 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   2.024053ms|   match|[44m GET     [0m /     r:/
+2017/09/17 00:29:07 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   2.119503ms|   match|[44m GET     [0m /     r:/
+2017/09/17 00:30:05 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   3.590784ms|   match|[44m GET     [0m /     r:/
+2017/09/17 00:30:58 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   3.123485ms|   match|[44m GET     [0m /     r:/
+2017/09/17 00:32:40 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   2.226762ms|   match|[44m GET     [0m /     r:/
+2017/09/17 00:32:40 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|     44.306µs|   match|[44m GET     [0m /static/img/WechatIMG30.png
+2017/09/17 00:33:44 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   2.186646ms|   match|[44m GET     [0m /     r:/
+2017/09/17 00:34:09 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    2.79583ms|   match|[44m GET     [0m /     r:/
+2017/09/17 00:34:15 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   2.107717ms|   match|[44m GET     [0m /     r:/
+2017/09/17 00:34:47 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    2.15739ms|   match|[44m GET     [0m /     r:/
+2017/09/17 00:36:55 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   2.573995ms|   match|[44m GET     [0m /     r:/
+2017/09/17 00:36:55 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|     43.228µs|   match|[44m GET     [0m /static/img/WechatIMG25.png
+2017/09/17 00:37:12 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   2.064524ms|   match|[44m GET     [0m /     r:/
+2017/09/17 00:37:25 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   6.623824ms|   match|[44m GET     [0m /goto_my_blog   r:/goto_my_blog
+2017/09/17 00:37:28 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   3.086232ms|   match|[44m GET     [0m /     r:/
+2017/09/17 00:37:40 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   2.063452ms|   match|[44m GET     [0m /     r:/
+2017/09/17 00:37:43 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   3.307686ms|   match|[44m GET     [0m /     r:/
+2017/09/17 00:37:44 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   5.967966ms|   match|[44m GET     [0m /     r:/
+2017/09/17 00:39:01 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    2.56915ms|   match|[44m GET     [0m /     r:/
+2017/09/17 08:35:53 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/09/17 08:36:02 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   3.219154ms|   match|[44m GET     [0m /     r:/
+2017/09/17 08:36:02 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|    565.076µs|   match|[44m GET     [0m /static/img/WechatIMG25.png
+2017/09/17 08:36:28 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   2.696445ms|   match|[44m GET     [0m /     r:/
+2017/09/17 13:38:13 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   6.900859ms|   match|[44m GET     [0m /     r:/
+2017/09/17 13:38:13 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|     57.863µs|   match|[44m GET     [0m /static/img/WechatIMG25.png
+2017/09/17 13:38:18 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   2.073092ms|   match|[44m GET     [0m /login   r:/login
+2017/09/17 13:38:19 [D] [server.go:2568] |      127.0.0.1|[47m 301 [0m|    465.372µs|   match|[46m POST    [0m /login   r:/login
+2017/09/17 13:38:19 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   2.702423ms|   match|[44m GET     [0m /admin   r:/admin
+2017/09/17 13:38:21 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|  10.179264ms|   match|[44m GET     [0m /admin/myArticle   r:/admin/myArticle
+2017/09/17 13:38:24 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   4.936224ms|   match|[44m GET     [0m /admin/gotoArticle   r:/admin/gotoArticle
+2017/09/17 13:38:26 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   5.270654ms|   match|[44m GET     [0m /admin/myArticle   r:/admin/myArticle
+2017/09/17 13:38:27 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|  33.285451ms|   match|[44m GET     [0m /admin/update_page   r:/admin/update_page
+2017/09/17 13:38:32 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   2.146968ms|   match|[44m GET     [0m /admin/gotoArticle   r:/admin/gotoArticle
+2017/09/17 13:38:34 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   4.781388ms|   match|[44m GET     [0m /admin/myArticle   r:/admin/myArticle
+2017/09/17 13:38:35 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   1.616811ms|   match|[44m GET     [0m /admin   r:/admin
+2017/09/17 13:38:42 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   3.212918ms|   match|[44m GET     [0m /admin/myArticle   r:/admin/myArticle
+2017/09/17 13:38:44 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   3.319905ms|   match|[44m GET     [0m /admin/myArticle   r:/admin/myArticle
+2017/09/17 13:38:48 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   5.628272ms|   match|[44m GET     [0m /     r:/
+2017/09/17 13:40:08 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   3.099342ms|   match|[44m GET     [0m /     r:/
+2017/09/17 13:40:14 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   1.010021ms|   match|[44m GET     [0m /login   r:/login
+2017/09/17 13:40:15 [D] [server.go:2568] |      127.0.0.1|[47m 301 [0m|      66.74µs|   match|[46m POST    [0m /login   r:/login
+2017/09/17 13:40:15 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   2.894483ms|   match|[44m GET     [0m /admin   r:/admin
+2017/09/17 13:40:16 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    3.30762ms|   match|[44m GET     [0m /admin/myArticle   r:/admin/myArticle
+2017/09/17 13:40:39 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   2.760024ms|   match|[44m GET     [0m /admin/myArticle   r:/admin/myArticle
+2017/09/17 13:40:41 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   3.886143ms|   match|[44m GET     [0m /admin/update_page   r:/admin/update_page
+2017/09/17 13:51:45 [I] [ArticleController.go:224] 已经存在的categoryId: 2 
+2017/09/17 13:51:45 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|  12.867919ms|   match|[46m POST    [0m /admin/artcle/update_articlez   r:/admin/artcle/update_articlez
+2017/09/17 13:51:45 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   2.587255ms|   match|[44m GET     [0m /admin/gotoSuccess   r:/admin/gotoSuccess
+2017/09/17 13:51:48 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   2.071268ms|   match|[44m GET     [0m /admin/gotoArticle   r:/admin/gotoArticle
+2017/09/17 13:51:55 [I] [ArticleController.go:80] 创建一个新categoryId: 5 
+2017/09/17 13:51:55 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|  10.511445ms|   match|[46m POST    [0m /admin/artcle/save_articlez   r:/admin/artcle/save_articlez
+2017/09/17 13:51:56 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   3.962968ms|   match|[44m GET     [0m /admin/gotoSuccess   r:/admin/gotoSuccess
+2017/09/17 13:54:02 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    6.90232ms|   match|[44m GET     [0m /admin/myArticle   r:/admin/myArticle
+2017/09/17 13:54:04 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   5.931911ms|   match|[44m GET     [0m /admin/gotoArticle   r:/admin/gotoArticle
+2017/09/17 13:54:22 [I] [ArticleController.go:80] 创建一个新categoryId: 6 
+2017/09/17 13:54:22 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   5.698513ms|   match|[46m POST    [0m /admin/artcle/save_articlez   r:/admin/artcle/save_articlez
+2017/09/17 13:54:22 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   2.624183ms|   match|[44m GET     [0m /admin/gotoSuccess   r:/admin/gotoSuccess
+2017/09/17 13:54:24 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   3.151924ms|   match|[44m GET     [0m /admin/myArticle   r:/admin/myArticle
+2017/09/17 13:54:26 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   2.909334ms|   match|[44m GET     [0m /admin/update_page   r:/admin/update_page
+2017/09/17 14:19:38 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   7.866912ms|   match|[44m GET     [0m /     r:/
+2017/09/17 14:19:45 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    782.871µs|   match|[44m GET     [0m /login   r:/login
+2017/09/17 14:19:47 [D] [server.go:2568] |      127.0.0.1|[47m 301 [0m|     93.093µs|   match|[46m POST    [0m /login   r:/login
+2017/09/17 14:19:47 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   2.169366ms|   match|[44m GET     [0m /admin   r:/admin
+2017/09/17 14:19:49 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   5.418886ms|   match|[44m GET     [0m /admin/myArticle   r:/admin/myArticle
+2017/09/17 14:19:51 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   3.330042ms|   match|[44m GET     [0m /admin/update_page   r:/admin/update_page
+2017/09/17 16:39:57 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/09/17 16:40:07 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   3.018625ms|   match|[44m GET     [0m /     r:/
+2017/09/17 16:40:08 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|   1.508778ms|   match|[44m GET     [0m /static/img/WechatIMG25.png
+2017/09/17 16:43:59 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   2.605018ms|   match|[44m GET     [0m /     r:/
+2017/09/17 16:44:10 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    4.09209ms|   match|[44m GET     [0m /     r:/
+2017/09/17 16:44:29 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   3.229212ms|   match|[44m GET     [0m /     r:/
+2017/09/17 16:45:26 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   2.205643ms|   match|[44m GET     [0m /     r:/
+2017/09/17 16:46:12 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   2.830882ms|   match|[44m GET     [0m /     r:/
+2017/09/17 16:46:24 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   3.044584ms|   match|[44m GET     [0m /     r:/
+2017/09/17 16:46:52 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   3.016797ms|   match|[44m GET     [0m /     r:/
+2017/09/17 16:47:07 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   2.718485ms|   match|[44m GET     [0m /     r:/
+2017/09/17 16:47:50 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   3.047263ms|   match|[44m GET     [0m /     r:/
+2017/09/17 16:48:38 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    2.37872ms|   match|[44m GET     [0m /     r:/
+2017/09/17 16:48:49 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   4.833449ms|   match|[44m GET     [0m /     r:/
+2017/09/17 16:49:04 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   2.897421ms|   match|[44m GET     [0m /     r:/
+2017/09/17 16:49:23 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   2.862414ms|   match|[44m GET     [0m /     r:/
+2017/09/17 16:49:32 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   2.238818ms|   match|[44m GET     [0m /     r:/
+2017/09/17 16:50:14 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   2.864145ms|   match|[44m GET     [0m /     r:/
+2017/09/17 16:51:09 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   2.794862ms|   match|[44m GET     [0m /     r:/
+2017/09/17 16:51:21 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   2.383361ms|   match|[44m GET     [0m /     r:/
+2017/09/17 16:54:40 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   3.112573ms|   match|[44m GET     [0m /     r:/
+2017/09/17 16:55:19 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   3.223836ms|   match|[44m GET     [0m /     r:/

@@ -9,6 +9,8 @@
             <input type="text" class="form-control" id="title" aria-describedby="basic-addon1">
         </div>
         <br>
+        <textarea id='sammed' placeholder="概述：限200字" name="sammed" class="form-control"></textarea>
+        <br>
         <textarea id='editor' name="editor" style='color:#0000'></textarea>
         <br>
         <div class="input-group">
@@ -38,6 +40,18 @@
        var mdcode = $("#editor").val();
        var title = $("#title").val();
        var category = $("#category").val();
+       var sammed = $("#sammed").val();
+
+       if (sammed == ""){
+           layer.msg('请写上概况', {icon: 5, time:2000});
+           return;
+       }
+
+       if (sammed.length > 200){
+           layer.msg('请写上概况', {icon: 5, time:2000});
+           return;
+       }
+
        if (mdcode==""){
             layer.msg('还没有文章内容哟❤️', {icon: 5, time:2000});
             return;
@@ -55,10 +69,17 @@
                 mdcode: mdcode,
                 title: title,
                 category: category,
-                htmlcode: htmlcode
+                htmlcode: htmlcode,
+                sammed : sammed
             },
             success: function (re) {
-
+                console.log(re);
+                if (re == "ok"){
+                    window.location.href = "/admin/gotoSuccess"
+                }else {
+                    layer.msg(re, {icon: 5, time:2000});
+                    return;
+                }
             },
             dataType:"json"
         });

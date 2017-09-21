@@ -18,4 +18,5 @@ func init(){
 	orm.RegisterDriver("mysql", orm.DRMySQL)
 	orm.RegisterDataBase("default", "mysql", "root:root@tcp(127.0.0.1:3306)/myblog?charset=utf8", 30)
 	models.RegisterModels()
+	beego.SetLogger("file", `{"filename":"logs/log.log"}`)
 }
